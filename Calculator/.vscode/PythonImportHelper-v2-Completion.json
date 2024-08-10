@@ -1,0 +1,11 @@
+[
+    {
+        "label": "option",
+        "kind": 5,
+        "importPath": "Calculator",
+        "description": "Calculator",
+        "peekOfCode": "option = int(input(\"Choose an Operation (1-7): \"))\nif option in [1, 2, 3, 4, 5, 6, 7]:\n    num1 = float(input(\"Enter First Number: \"))\n    num2 = float(input(\"Enter Second Number: \"))\n    if option == 1:\n        result = num1 + num2\n    elif option == 2:\n        result = num1 - num2\n    elif option == 3:\n        result = num1 * num2",
+        "detail": "Calculator",
+        "documentation": {}
+    }
+]
