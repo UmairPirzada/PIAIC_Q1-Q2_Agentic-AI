@@ -1,0 +1,920 @@
+[
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"HELLO WORLD\"\ncasefolded_text = text.casefold()\nprint(casefolded_text)  # Output: hello world\n# 3. center() Returns a centered string of a specified length.\ntext = \"hello\"\ncentered_text = text.center(10, \"*\")\nprint(centered_text)  # Output: ***hello***\n# 4. count() Returns the number of occurrences of a substring.\ntext = \"banana\"\ncount_a = text.count(\"a\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "casefolded_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "casefolded_text = text.casefold()\nprint(casefolded_text)  # Output: hello world\n# 3. center() Returns a centered string of a specified length.\ntext = \"hello\"\ncentered_text = text.center(10, \"*\")\nprint(centered_text)  # Output: ***hello***\n# 4. count() Returns the number of occurrences of a substring.\ntext = \"banana\"\ncount_a = text.count(\"a\")\nprint(count_a)  # Output: 3",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\ncentered_text = text.center(10, \"*\")\nprint(centered_text)  # Output: ***hello***\n# 4. count() Returns the number of occurrences of a substring.\ntext = \"banana\"\ncount_a = text.count(\"a\")\nprint(count_a)  # Output: 3\n# 5. encode() Encodes the string into a bytes object using a specified encoding.\n# The `encode()` method in Python is used to encode the string into a bytes object using a specified\n# encoding. This method takes an encoding parameter and returns the encoded version of the string as a",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "centered_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "centered_text = text.center(10, \"*\")\nprint(centered_text)  # Output: ***hello***\n# 4. count() Returns the number of occurrences of a substring.\ntext = \"banana\"\ncount_a = text.count(\"a\")\nprint(count_a)  # Output: 3\n# 5. encode() Encodes the string into a bytes object using a specified encoding.\n# The `encode()` method in Python is used to encode the string into a bytes object using a specified\n# encoding. This method takes an encoding parameter and returns the encoded version of the string as a\n# bytes object.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"banana\"\ncount_a = text.count(\"a\")\nprint(count_a)  # Output: 3\n# 5. encode() Encodes the string into a bytes object using a specified encoding.\n# The `encode()` method in Python is used to encode the string into a bytes object using a specified\n# encoding. This method takes an encoding parameter and returns the encoded version of the string as a\n# bytes object.\ntext = \"hello\"\nencoded_text = text.encode(\"utf-8\")\nprint(encoded_text)  # Output: b'hello'",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "count_a",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "count_a = text.count(\"a\")\nprint(count_a)  # Output: 3\n# 5. encode() Encodes the string into a bytes object using a specified encoding.\n# The `encode()` method in Python is used to encode the string into a bytes object using a specified\n# encoding. This method takes an encoding parameter and returns the encoded version of the string as a\n# bytes object.\ntext = \"hello\"\nencoded_text = text.encode(\"utf-8\")\nprint(encoded_text)  # Output: b'hello'\n# 6. endswith() Checks if the string ends with a specified suffix.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nencoded_text = text.encode(\"utf-8\")\nprint(encoded_text)  # Output: b'hello'\n# 6. endswith() Checks if the string ends with a specified suffix.\ntext = \"hello, world!\"\nends_with_world = text.endswith(\"world!\")\nprint(ends_with_world)  # Output: True\n# 7. expandtabs() Replaces tabs with spaces.\ntext = \"hello\\tworld\"\nexpanded_text = text.expandtabs(4)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "encoded_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "encoded_text = text.encode(\"utf-8\")\nprint(encoded_text)  # Output: b'hello'\n# 6. endswith() Checks if the string ends with a specified suffix.\ntext = \"hello, world!\"\nends_with_world = text.endswith(\"world!\")\nprint(ends_with_world)  # Output: True\n# 7. expandtabs() Replaces tabs with spaces.\ntext = \"hello\\tworld\"\nexpanded_text = text.expandtabs(4)\nprint(expanded_text)  # Output: hello    world",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nends_with_world = text.endswith(\"world!\")\nprint(ends_with_world)  # Output: True\n# 7. expandtabs() Replaces tabs with spaces.\ntext = \"hello\\tworld\"\nexpanded_text = text.expandtabs(4)\nprint(expanded_text)  # Output: hello    world\n# 8. find() Returns the index of the first occurrence of a substring.\ntext = \"hello, world!\"\nindex = text.find(\"world\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "ends_with_world",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "ends_with_world = text.endswith(\"world!\")\nprint(ends_with_world)  # Output: True\n# 7. expandtabs() Replaces tabs with spaces.\ntext = \"hello\\tworld\"\nexpanded_text = text.expandtabs(4)\nprint(expanded_text)  # Output: hello    world\n# 8. find() Returns the index of the first occurrence of a substring.\ntext = \"hello, world!\"\nindex = text.find(\"world\")\nprint(index)  # Output: 7",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\\tworld\"\nexpanded_text = text.expandtabs(4)\nprint(expanded_text)  # Output: hello    world\n# 8. find() Returns the index of the first occurrence of a substring.\ntext = \"hello, world!\"\nindex = text.find(\"world\")\nprint(index)  # Output: 7\n# 9. format() Formats a string using placeholders.\nname = \"Alice\"\nage = 30",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "expanded_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "expanded_text = text.expandtabs(4)\nprint(expanded_text)  # Output: hello    world\n# 8. find() Returns the index of the first occurrence of a substring.\ntext = \"hello, world!\"\nindex = text.find(\"world\")\nprint(index)  # Output: 7\n# 9. format() Formats a string using placeholders.\nname = \"Alice\"\nage = 30\nformatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nindex = text.find(\"world\")\nprint(index)  # Output: 7\n# 9. format() Formats a string using placeholders.\nname = \"Alice\"\nage = 30\nformatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)\nprint(formatted_string)  \n# Output: Hello, my name is Alice and I am 30 years old.\n# 10. format_map() Formats a string using a mapping.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "index = text.find(\"world\")\nprint(index)  # Output: 7\n# 9. format() Formats a string using placeholders.\nname = \"Alice\"\nage = 30\nformatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)\nprint(formatted_string)  \n# Output: Hello, my name is Alice and I am 30 years old.\n# 10. format_map() Formats a string using a mapping.\nvalues = {'name': 'Alice', 'age': 30}",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "name = \"Alice\"\nage = 30\nformatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)\nprint(formatted_string)  \n# Output: Hello, my name is Alice and I am 30 years old.\n# 10. format_map() Formats a string using a mapping.\nvalues = {'name': 'Alice', 'age': 30}\nformatted_string = \"Hello, my name is {name} and I am {age} years old.\".format_map(values)\nprint(formatted_string)  # Output: Hello, my name is Alice and I am 30 years old.\n# 11. index() Returns the index of the first occurrence of a substring, raising a ValueError if not found.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "age = 30\nformatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)\nprint(formatted_string)  \n# Output: Hello, my name is Alice and I am 30 years old.\n# 10. format_map() Formats a string using a mapping.\nvalues = {'name': 'Alice', 'age': 30}\nformatted_string = \"Hello, my name is {name} and I am {age} years old.\".format_map(values)\nprint(formatted_string)  # Output: Hello, my name is Alice and I am 30 years old.\n# 11. index() Returns the index of the first occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world!\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"Hello, my name is {} and I am {} years old.\".format(name, age)\nprint(formatted_string)  \n# Output: Hello, my name is Alice and I am 30 years old.\n# 10. format_map() Formats a string using a mapping.\nvalues = {'name': 'Alice', 'age': 30}\nformatted_string = \"Hello, my name is {name} and I am {age} years old.\".format_map(values)\nprint(formatted_string)  # Output: Hello, my name is Alice and I am 30 years old.\n# 11. index() Returns the index of the first occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world!\"\nindex = text.index(\"world\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "values = {'name': 'Alice', 'age': 30}\nformatted_string = \"Hello, my name is {name} and I am {age} years old.\".format_map(values)\nprint(formatted_string)  # Output: Hello, my name is Alice and I am 30 years old.\n# 11. index() Returns the index of the first occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world!\"\nindex = text.index(\"world\")\nprint(index)  # Output: 7\n# 12. isalnum() Returns True if all characters are alphanumeric.\ntext = \"hello123\"\nis_alnum = text.isalnum()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"Hello, my name is {name} and I am {age} years old.\".format_map(values)\nprint(formatted_string)  # Output: Hello, my name is Alice and I am 30 years old.\n# 11. index() Returns the index of the first occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world!\"\nindex = text.index(\"world\")\nprint(index)  # Output: 7\n# 12. isalnum() Returns True if all characters are alphanumeric.\ntext = \"hello123\"\nis_alnum = text.isalnum()\nprint(is_alnum)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nindex = text.index(\"world\")\nprint(index)  # Output: 7\n# 12. isalnum() Returns True if all characters are alphanumeric.\ntext = \"hello123\"\nis_alnum = text.isalnum()\nprint(is_alnum)  # Output: True\n# 13. isalpha() Returns True if all characters are alphabetic.\ntext = \"hello\"\nis_alpha = text.isalpha()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "index = text.index(\"world\")\nprint(index)  # Output: 7\n# 12. isalnum() Returns True if all characters are alphanumeric.\ntext = \"hello123\"\nis_alnum = text.isalnum()\nprint(is_alnum)  # Output: True\n# 13. isalpha() Returns True if all characters are alphabetic.\ntext = \"hello\"\nis_alpha = text.isalpha()\nprint(is_alpha)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello123\"\nis_alnum = text.isalnum()\nprint(is_alnum)  # Output: True\n# 13. isalpha() Returns True if all characters are alphabetic.\ntext = \"hello\"\nis_alpha = text.isalpha()\nprint(is_alpha)  # Output: True\n# 14. isascii() Returns True if all characters are ASCII.\ntext = \"hello\"\nis_ascii = text.isascii()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_alnum",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_alnum = text.isalnum()\nprint(is_alnum)  # Output: True\n# 13. isalpha() Returns True if all characters are alphabetic.\ntext = \"hello\"\nis_alpha = text.isalpha()\nprint(is_alpha)  # Output: True\n# 14. isascii() Returns True if all characters are ASCII.\ntext = \"hello\"\nis_ascii = text.isascii()\nprint(is_ascii)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nis_alpha = text.isalpha()\nprint(is_alpha)  # Output: True\n# 14. isascii() Returns True if all characters are ASCII.\ntext = \"hello\"\nis_ascii = text.isascii()\nprint(is_ascii)  # Output: True\n# 15. isdecimal() Returns True if all characters are decimal digits.\ntext = \"123\"\nis_decimal = text.isdecimal()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_alpha",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_alpha = text.isalpha()\nprint(is_alpha)  # Output: True\n# 14. isascii() Returns True if all characters are ASCII.\ntext = \"hello\"\nis_ascii = text.isascii()\nprint(is_ascii)  # Output: True\n# 15. isdecimal() Returns True if all characters are decimal digits.\ntext = \"123\"\nis_decimal = text.isdecimal()\nprint(is_decimal)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nis_ascii = text.isascii()\nprint(is_ascii)  # Output: True\n# 15. isdecimal() Returns True if all characters are decimal digits.\ntext = \"123\"\nis_decimal = text.isdecimal()\nprint(is_decimal)  # Output: True\n# 16. isdigit() Returns True if all characters are digits.\ntext = \"123\"\nis_digit = text.isdigit()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_ascii",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_ascii = text.isascii()\nprint(is_ascii)  # Output: True\n# 15. isdecimal() Returns True if all characters are decimal digits.\ntext = \"123\"\nis_decimal = text.isdecimal()\nprint(is_decimal)  # Output: True\n# 16. isdigit() Returns True if all characters are digits.\ntext = \"123\"\nis_digit = text.isdigit()\nprint(is_digit)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"123\"\nis_decimal = text.isdecimal()\nprint(is_decimal)  # Output: True\n# 16. isdigit() Returns True if all characters are digits.\ntext = \"123\"\nis_digit = text.isdigit()\nprint(is_digit)  # Output: True\n# 17. isidentifier() Returns True if the string is a valid identifier.\ntext = \"my_variable\"\nis_identifier = text.isidentifier()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_decimal",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_decimal = text.isdecimal()\nprint(is_decimal)  # Output: True\n# 16. isdigit() Returns True if all characters are digits.\ntext = \"123\"\nis_digit = text.isdigit()\nprint(is_digit)  # Output: True\n# 17. isidentifier() Returns True if the string is a valid identifier.\ntext = \"my_variable\"\nis_identifier = text.isidentifier()\nprint(is_identifier)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"123\"\nis_digit = text.isdigit()\nprint(is_digit)  # Output: True\n# 17. isidentifier() Returns True if the string is a valid identifier.\ntext = \"my_variable\"\nis_identifier = text.isidentifier()\nprint(is_identifier)  # Output: True\n# 18. islower() Returns True if all characters are lowercase.\ntext = \"hello\"\nis_lower = text.islower()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_digit",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_digit = text.isdigit()\nprint(is_digit)  # Output: True\n# 17. isidentifier() Returns True if the string is a valid identifier.\ntext = \"my_variable\"\nis_identifier = text.isidentifier()\nprint(is_identifier)  # Output: True\n# 18. islower() Returns True if all characters are lowercase.\ntext = \"hello\"\nis_lower = text.islower()\nprint(is_lower)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"my_variable\"\nis_identifier = text.isidentifier()\nprint(is_identifier)  # Output: True\n# 18. islower() Returns True if all characters are lowercase.\ntext = \"hello\"\nis_lower = text.islower()\nprint(is_lower)  # Output: True\n# 19. isnumeric() Returns True if all characters are numeric.\ntext = \"123\"\nis_numeric = text.isnumeric()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_identifier",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_identifier = text.isidentifier()\nprint(is_identifier)  # Output: True\n# 18. islower() Returns True if all characters are lowercase.\ntext = \"hello\"\nis_lower = text.islower()\nprint(is_lower)  # Output: True\n# 19. isnumeric() Returns True if all characters are numeric.\ntext = \"123\"\nis_numeric = text.isnumeric()\nprint(is_numeric)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nis_lower = text.islower()\nprint(is_lower)  # Output: True\n# 19. isnumeric() Returns True if all characters are numeric.\ntext = \"123\"\nis_numeric = text.isnumeric()\nprint(is_numeric)  # Output: True\n# 20. isprintable() Returns True if all characters are printable.\ntext = \"hello world\"\nis_printable = text.isprintable()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_lower",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_lower = text.islower()\nprint(is_lower)  # Output: True\n# 19. isnumeric() Returns True if all characters are numeric.\ntext = \"123\"\nis_numeric = text.isnumeric()\nprint(is_numeric)  # Output: True\n# 20. isprintable() Returns True if all characters are printable.\ntext = \"hello world\"\nis_printable = text.isprintable()\nprint(is_printable)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"123\"\nis_numeric = text.isnumeric()\nprint(is_numeric)  # Output: True\n# 20. isprintable() Returns True if all characters are printable.\ntext = \"hello world\"\nis_printable = text.isprintable()\nprint(is_printable)  # Output: True\n# 21. isspace() Returns True if all characters are whitespace.\ntext = \"  \\t\\n\"\nis_space = text.isspace()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_numeric",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_numeric = text.isnumeric()\nprint(is_numeric)  # Output: True\n# 20. isprintable() Returns True if all characters are printable.\ntext = \"hello world\"\nis_printable = text.isprintable()\nprint(is_printable)  # Output: True\n# 21. isspace() Returns True if all characters are whitespace.\ntext = \"  \\t\\n\"\nis_space = text.isspace()\nprint(is_space)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello world\"\nis_printable = text.isprintable()\nprint(is_printable)  # Output: True\n# 21. isspace() Returns True if all characters are whitespace.\ntext = \"  \\t\\n\"\nis_space = text.isspace()\nprint(is_space)  # Output: True\n# 22. istitle() Returns True if the string is a titlecased string.\ntext = \"Hello, World!\"\nis_title = text.istitle()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_printable",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_printable = text.isprintable()\nprint(is_printable)  # Output: True\n# 21. isspace() Returns True if all characters are whitespace.\ntext = \"  \\t\\n\"\nis_space = text.isspace()\nprint(is_space)  # Output: True\n# 22. istitle() Returns True if the string is a titlecased string.\ntext = \"Hello, World!\"\nis_title = text.istitle()\nprint(is_title)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"  \\t\\n\"\nis_space = text.isspace()\nprint(is_space)  # Output: True\n# 22. istitle() Returns True if the string is a titlecased string.\ntext = \"Hello, World!\"\nis_title = text.istitle()\nprint(is_title)  # Output: True\n# 23. isupper() Returns True if all characters are uppercase.\ntext = \"HELLO\"\nis_upper = text.isupper()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_space",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_space = text.isspace()\nprint(is_space)  # Output: True\n# 22. istitle() Returns True if the string is a titlecased string.\ntext = \"Hello, World!\"\nis_title = text.istitle()\nprint(is_title)  # Output: True\n# 23. isupper() Returns True if all characters are uppercase.\ntext = \"HELLO\"\nis_upper = text.isupper()\nprint(is_upper)  # Output: True",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"Hello, World!\"\nis_title = text.istitle()\nprint(is_title)  # Output: True\n# 23. isupper() Returns True if all characters are uppercase.\ntext = \"HELLO\"\nis_upper = text.isupper()\nprint(is_upper)  # Output: True\n# 24. join() Concatenates elements of an iterable into a string.\nwords = [\"hello\", \"world\"]\ntext = \" \".join(words)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_title",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_title = text.istitle()\nprint(is_title)  # Output: True\n# 23. isupper() Returns True if all characters are uppercase.\ntext = \"HELLO\"\nis_upper = text.isupper()\nprint(is_upper)  # Output: True\n# 24. join() Concatenates elements of an iterable into a string.\nwords = [\"hello\", \"world\"]\ntext = \" \".join(words)\nprint(text)  # Output: hello world",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"HELLO\"\nis_upper = text.isupper()\nprint(is_upper)  # Output: True\n# 24. join() Concatenates elements of an iterable into a string.\nwords = [\"hello\", \"world\"]\ntext = \" \".join(words)\nprint(text)  # Output: hello world\n# 25. ljust() Returns a left-justified string of a specified length.\ntext = \"hello\"\nleft_justified = text.ljust(10, \"*\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "is_upper",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "is_upper = text.isupper()\nprint(is_upper)  # Output: True\n# 24. join() Concatenates elements of an iterable into a string.\nwords = [\"hello\", \"world\"]\ntext = \" \".join(words)\nprint(text)  # Output: hello world\n# 25. ljust() Returns a left-justified string of a specified length.\ntext = \"hello\"\nleft_justified = text.ljust(10, \"*\")\nprint(left_justified)  # Output: hello*****",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "words = [\"hello\", \"world\"]\ntext = \" \".join(words)\nprint(text)  # Output: hello world\n# 25. ljust() Returns a left-justified string of a specified length.\ntext = \"hello\"\nleft_justified = text.ljust(10, \"*\")\nprint(left_justified)  # Output: hello*****\n# 26. lower() Converts all characters to lowercase.\ntext = \"HELLO\"\nlower_text = text.lower()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \" \".join(words)\nprint(text)  # Output: hello world\n# 25. ljust() Returns a left-justified string of a specified length.\ntext = \"hello\"\nleft_justified = text.ljust(10, \"*\")\nprint(left_justified)  # Output: hello*****\n# 26. lower() Converts all characters to lowercase.\ntext = \"HELLO\"\nlower_text = text.lower()\nprint(lower_text)  # Output: hello",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nleft_justified = text.ljust(10, \"*\")\nprint(left_justified)  # Output: hello*****\n# 26. lower() Converts all characters to lowercase.\ntext = \"HELLO\"\nlower_text = text.lower()\nprint(lower_text)  # Output: hello\n# 27. lstrip() Removes leading whitespace from the string.\ntext = \"  hello, world!  \"\nstripped_text = text.lstrip()",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "left_justified",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "left_justified = text.ljust(10, \"*\")\nprint(left_justified)  # Output: hello*****\n# 26. lower() Converts all characters to lowercase.\ntext = \"HELLO\"\nlower_text = text.lower()\nprint(lower_text)  # Output: hello\n# 27. lstrip() Removes leading whitespace from the string.\ntext = \"  hello, world!  \"\nstripped_text = text.lstrip()\nprint(stripped_text)  # Output: hello, world!  ",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"HELLO\"\nlower_text = text.lower()\nprint(lower_text)  # Output: hello\n# 27. lstrip() Removes leading whitespace from the string.\ntext = \"  hello, world!  \"\nstripped_text = text.lstrip()\nprint(stripped_text)  # Output: hello, world!  \n# 28. maketrans() Creates a translation table for use with the translate() method.\ntranslation_table = str.maketrans(\"aeiou\", \"12345\")\ntext = \"hello\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "lower_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "lower_text = text.lower()\nprint(lower_text)  # Output: hello\n# 27. lstrip() Removes leading whitespace from the string.\ntext = \"  hello, world!  \"\nstripped_text = text.lstrip()\nprint(stripped_text)  # Output: hello, world!  \n# 28. maketrans() Creates a translation table for use with the translate() method.\ntranslation_table = str.maketrans(\"aeiou\", \"12345\")\ntext = \"hello\"\ntranslated_text = text.translate(translation_table)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"  hello, world!  \"\nstripped_text = text.lstrip()\nprint(stripped_text)  # Output: hello, world!  \n# 28. maketrans() Creates a translation table for use with the translate() method.\ntranslation_table = str.maketrans(\"aeiou\", \"12345\")\ntext = \"hello\"\ntranslated_text = text.translate(translation_table)\nprint(translated_text)  # Output: h1ll0\n# 29. partition() Splits the string into a tuple of three parts based on the first occurrence of a separator.\ntext = \"hello, world!\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "stripped_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "stripped_text = text.lstrip()\nprint(stripped_text)  # Output: hello, world!  \n# 28. maketrans() Creates a translation table for use with the translate() method.\ntranslation_table = str.maketrans(\"aeiou\", \"12345\")\ntext = \"hello\"\ntranslated_text = text.translate(translation_table)\nprint(translated_text)  # Output: h1ll0\n# 29. partition() Splits the string into a tuple of three parts based on the first occurrence of a separator.\ntext = \"hello, world!\"\nparts = text.partition(\", \")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "translation_table",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "translation_table = str.maketrans(\"aeiou\", \"12345\")\ntext = \"hello\"\ntranslated_text = text.translate(translation_table)\nprint(translated_text)  # Output: h1ll0\n# 29. partition() Splits the string into a tuple of three parts based on the first occurrence of a separator.\ntext = \"hello, world!\"\nparts = text.partition(\", \")\nprint(parts)  # Output: ('hello', ', ', 'world!')\n# 30. removeprefix() Removes a prefix from the string if it exists.\ntext = \"hello world\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\ntranslated_text = text.translate(translation_table)\nprint(translated_text)  # Output: h1ll0\n# 29. partition() Splits the string into a tuple of three parts based on the first occurrence of a separator.\ntext = \"hello, world!\"\nparts = text.partition(\", \")\nprint(parts)  # Output: ('hello', ', ', 'world!')\n# 30. removeprefix() Removes a prefix from the string if it exists.\ntext = \"hello world\"\nremoved_prefix = text.removeprefix(\"hello \")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "translated_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "translated_text = text.translate(translation_table)\nprint(translated_text)  # Output: h1ll0\n# 29. partition() Splits the string into a tuple of three parts based on the first occurrence of a separator.\ntext = \"hello, world!\"\nparts = text.partition(\", \")\nprint(parts)  # Output: ('hello', ', ', 'world!')\n# 30. removeprefix() Removes a prefix from the string if it exists.\ntext = \"hello world\"\nremoved_prefix = text.removeprefix(\"hello \")\nprint(removed_prefix)  # Output: world",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nparts = text.partition(\", \")\nprint(parts)  # Output: ('hello', ', ', 'world!')\n# 30. removeprefix() Removes a prefix from the string if it exists.\ntext = \"hello world\"\nremoved_prefix = text.removeprefix(\"hello \")\nprint(removed_prefix)  # Output: world\n# 31. removesuffix() Removes a suffix from the string if it exists.\ntext = \"hello world!\"\nremoved_suffix = text.removesuffix(\" world!\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "parts",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "parts = text.partition(\", \")\nprint(parts)  # Output: ('hello', ', ', 'world!')\n# 30. removeprefix() Removes a prefix from the string if it exists.\ntext = \"hello world\"\nremoved_prefix = text.removeprefix(\"hello \")\nprint(removed_prefix)  # Output: world\n# 31. removesuffix() Removes a suffix from the string if it exists.\ntext = \"hello world!\"\nremoved_suffix = text.removesuffix(\" world!\")\nprint(removed_suffix)  # Output: hello",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello world\"\nremoved_prefix = text.removeprefix(\"hello \")\nprint(removed_prefix)  # Output: world\n# 31. removesuffix() Removes a suffix from the string if it exists.\ntext = \"hello world!\"\nremoved_suffix = text.removesuffix(\" world!\")\nprint(removed_suffix)  # Output: hello\n# 32. replace() Replaces occurrences of a substring with another substring.\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"world\", \"Python\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "removed_prefix",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "removed_prefix = text.removeprefix(\"hello \")\nprint(removed_prefix)  # Output: world\n# 31. removesuffix() Removes a suffix from the string if it exists.\ntext = \"hello world!\"\nremoved_suffix = text.removesuffix(\" world!\")\nprint(removed_suffix)  # Output: hello\n# 32. replace() Replaces occurrences of a substring with another substring.\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"world\", \"Python\")\nprint(replaced_text)  # Output: Hello, Python!",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello world!\"\nremoved_suffix = text.removesuffix(\" world!\")\nprint(removed_suffix)  # Output: hello\n# 32. replace() Replaces occurrences of a substring with another substring.\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"world\", \"Python\")\nprint(replaced_text)  # Output: Hello, Python!\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "removed_suffix",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "removed_suffix = text.removesuffix(\" world!\")\nprint(removed_suffix)  # Output: hello\n# 32. replace() Replaces occurrences of a substring with another substring.\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"world\", \"Python\")\nprint(replaced_text)  # Output: Hello, Python!\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!\n# 33. rfind() Returns the index of the last occurrence of a substring.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nreplaced_text = text.replace(\"world\", \"Python\")\nprint(replaced_text)  # Output: Hello, Python!\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!\n# 33. rfind() Returns the index of the last occurrence of a substring.\ntext = \"hello, world, hello\"\nindex = text.rfind(\"hello\")\nprint(index)  # Output: 14",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "replaced_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "replaced_text = text.replace(\"world\", \"Python\")\nprint(replaced_text)  # Output: Hello, Python!\ntext = \"hello, world!\"\nreplaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!\n# 33. rfind() Returns the index of the last occurrence of a substring.\ntext = \"hello, world, hello\"\nindex = text.rfind(\"hello\")\nprint(index)  # Output: 14\n# 34. rindex() Returns the index of the last occurrence of a substring, raising a ValueError if not found.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world!\"\nreplaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!\n# 33. rfind() Returns the index of the last occurrence of a substring.\ntext = \"hello, world, hello\"\nindex = text.rfind(\"hello\")\nprint(index)  # Output: 14\n# 34. rindex() Returns the index of the last occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world, hello\"\nindex = text.rindex(\"hello\")",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "replaced_text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "replaced_text = text.replace(\"hello\", \"Python\")\nprint(replaced_text)  # Output: world, Python!\n# 33. rfind() Returns the index of the last occurrence of a substring.\ntext = \"hello, world, hello\"\nindex = text.rfind(\"hello\")\nprint(index)  # Output: 14\n# 34. rindex() Returns the index of the last occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world, hello\"\nindex = text.rindex(\"hello\")\nprint(index)  # Output: 14",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world, hello\"\nindex = text.rfind(\"hello\")\nprint(index)  # Output: 14\n# 34. rindex() Returns the index of the last occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world, hello\"\nindex = text.rindex(\"hello\")\nprint(index)  # Output: 14\n# 35. rjust() Returns a right-justified string of a specified length.\n# text = \"hello\"\n# right_justified =",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "index = text.rfind(\"hello\")\nprint(index)  # Output: 14\n# 34. rindex() Returns the index of the last occurrence of a substring, raising a ValueError if not found.\ntext = \"hello, world, hello\"\nindex = text.rindex(\"hello\")\nprint(index)  # Output: 14\n# 35. rjust() Returns a right-justified string of a specified length.\n# text = \"hello\"\n# right_justified =\ntext = \"hello\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello, world, hello\"\nindex = text.rindex(\"hello\")\nprint(index)  # Output: 14\n# 35. rjust() Returns a right-justified string of a specified length.\n# text = \"hello\"\n# right_justified =\ntext = \"hello\"\nright_justified = text.rjust(10)\nprint(right_justified)\n#     hello",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "index = text.rindex(\"hello\")\nprint(index)  # Output: 14\n# 35. rjust() Returns a right-justified string of a specified length.\n# text = \"hello\"\n# right_justified =\ntext = \"hello\"\nright_justified = text.rjust(10)\nprint(right_justified)\n#     hello\n# More in Strings",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"hello\"\nright_justified = text.rjust(10)\nprint(right_justified)\n#     hello\n# More in Strings\n# String Operators\n# 1. String Concatenation (+)\n# + operator is used to concatenate two strings.\nstr1 = \"Hello\"\nstr2 = \"World\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "right_justified",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "right_justified = text.rjust(10)\nprint(right_justified)\n#     hello\n# More in Strings\n# String Operators\n# 1. String Concatenation (+)\n# + operator is used to concatenate two strings.\nstr1 = \"Hello\"\nstr2 = \"World\"\nresult = str1 + \" \" + str2",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello\"\nstr2 = \"World\"\nresult = str1 + \" \" + str2\nprint(result)  # Output: \"Hello World\"\n# 2. Repetition (*)\n# The * operator is used to repeat a string a specified number of times.\nstr1 = \"Hello\"\nresult = str1 * 3\nprint(result)  # Output: \"HelloHelloHello\"\n# 3. Membership (in, not in)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str2 = \"World\"\nresult = str1 + \" \" + str2\nprint(result)  # Output: \"Hello World\"\n# 2. Repetition (*)\n# The * operator is used to repeat a string a specified number of times.\nstr1 = \"Hello\"\nresult = str1 * 3\nprint(result)  # Output: \"HelloHelloHello\"\n# 3. Membership (in, not in)\n# 3a. Membership Operators",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "result = str1 + \" \" + str2\nprint(result)  # Output: \"Hello World\"\n# 2. Repetition (*)\n# The * operator is used to repeat a string a specified number of times.\nstr1 = \"Hello\"\nresult = str1 * 3\nprint(result)  # Output: \"HelloHelloHello\"\n# 3. Membership (in, not in)\n# 3a. Membership Operators\n# The in and not in operators are used to check whether a substring exists within a string.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello\"\nresult = str1 * 3\nprint(result)  # Output: \"HelloHelloHello\"\n# 3. Membership (in, not in)\n# 3a. Membership Operators\n# The in and not in operators are used to check whether a substring exists within a string.\nstr1 = \"Hello World\"\nprint(\"Hello\" in str1)    # Output: True\nprint(\"Python\" not in str1)  # Output: True\n# 4. String Length (len())",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "result = str1 * 3\nprint(result)  # Output: \"HelloHelloHello\"\n# 3. Membership (in, not in)\n# 3a. Membership Operators\n# The in and not in operators are used to check whether a substring exists within a string.\nstr1 = \"Hello World\"\nprint(\"Hello\" in str1)    # Output: True\nprint(\"Python\" not in str1)  # Output: True\n# 4. String Length (len())\n# The len() function is used to get the length of a string.",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello World\"\nprint(\"Hello\" in str1)    # Output: True\nprint(\"Python\" not in str1)  # Output: True\n# 4. String Length (len())\n# The len() function is used to get the length of a string.\nstr1 = \"Hello World\"\nprint(len(str1))  # Output: 11\n# 5. Indexing ([])\n# Indexing allows to access individual characters in a string using their position.\nstr1 = \"Hello\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello World\"\nprint(len(str1))  # Output: 11\n# 5. Indexing ([])\n# Indexing allows to access individual characters in a string using their position.\nstr1 = \"Hello\"\nprint(str1[0])  # Output: \"H\"\nprint(str1[-1]) # Output: \"o\"\n# 6. Slicing ([start:stop:step])\n# Slicing allows to select a range of characters in a string.\nstr1 = \"Hello World\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello\"\nprint(str1[0])  # Output: \"H\"\nprint(str1[-1]) # Output: \"o\"\n# 6. Slicing ([start:stop:step])\n# Slicing allows to select a range of characters in a string.\nstr1 = \"Hello World\"\nprint(str1[0:5])  # Output: \"Hello\"\nprint(str1[6:11]) # Output: \"World\"\n# 7. String Comparison (==, !=, <, >, <=, >=)\n# 7a. Comparison Operators",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello World\"\nprint(str1[0:5])  # Output: \"Hello\"\nprint(str1[6:11]) # Output: \"World\"\n# 7. String Comparison (==, !=, <, >, <=, >=)\n# 7a. Comparison Operators\n# Compare two values and return a Boolean result (True or False).\n# Equal to: == Not equal to: != Greater than: > Less than: < Greater than or equal to: >= Less than or equal to: <=\nresult_equal: bool = 5 == 5\nresult_not_equal: bool = 10 != 7\nresult_greater_than: bool = 8 > 3",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str1 = \"Hello\"\nstr2 = \"World\"\nprint(str1 == str2)  # Output: False\nprint(str1 != str2)  # Output: True\nprint(str1 < str2)   # Output: True (since \"H\" comes before \"W\" lexicographically)\n# 8. String Formatting (%, .format(), f-strings)\n# Strings can be formatted using different methods.\nname = \"Alice\"\nage = 30\n# Using % operator",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "str2",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "str2 = \"World\"\nprint(str1 == str2)  # Output: False\nprint(str1 != str2)  # Output: True\nprint(str1 < str2)   # Output: True (since \"H\" comes before \"W\" lexicographically)\n# 8. String Formatting (%, .format(), f-strings)\n# Strings can be formatted using different methods.\nname = \"Alice\"\nage = 30\n# Using % operator\nprint(\"My name is %s and I am %d years old.\" % (name, age))  # Output: \"My name is Alice and I am 30 years old.\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "name = \"Alice\"\nage = 30\n# Using % operator\nprint(\"My name is %s and I am %d years old.\" % (name, age))  # Output: \"My name is Alice and I am 30 years old.\"\n# Using .format()\nprint(\"My name is {} and I am {} years old.\".format(name, age))  # Output: \"My name is Alice and I am 30 years old.\"\n# Using f-strings (Python 3.6+)\nprint(f\"My name is {name} and I am {age} years old.\")  # Output: \"My name is Alice and I am 30 years old.\"\n# 8a. Common format specifiers\n\"\"\" # %s (String Format Specifier):",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "age = 30\n# Using % operator\nprint(\"My name is %s and I am %d years old.\" % (name, age))  # Output: \"My name is Alice and I am 30 years old.\"\n# Using .format()\nprint(\"My name is {} and I am {} years old.\".format(name, age))  # Output: \"My name is Alice and I am 30 years old.\"\n# Using f-strings (Python 3.6+)\nprint(f\"My name is {name} and I am {age} years old.\")  # Output: \"My name is Alice and I am 30 years old.\"\n# 8a. Common format specifiers\n\"\"\" # %s (String Format Specifier):\n# %s is used as a placeholder for a string. It tells Python to insert the string representation of the corresponding variable into the position where %s appears in the string. In our example:",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "pi = 3.14159\nformatted_string = \"The value of pi is approximately %.2f\" % pi\nprint(formatted_string)  # Output: \"The value of pi is approximately 3.14\"\n# 4. %x (Integers in Hexadecimal Format Specifier)\nnumber = 255\nformatted_string = \"The hexadecimal representation of %d is %x\" % (number, number)\nprint(formatted_string)  # Output: \"The hexadecimal representation of 255 is ff\"\n# 5. %o (Integers in Octal Format Specifier)\nnumber = 255\nformatted_string = \"The octal representation of %d is %o\" % (number, number)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"The value of pi is approximately %.2f\" % pi\nprint(formatted_string)  # Output: \"The value of pi is approximately 3.14\"\n# 4. %x (Integers in Hexadecimal Format Specifier)\nnumber = 255\nformatted_string = \"The hexadecimal representation of %d is %x\" % (number, number)\nprint(formatted_string)  # Output: \"The hexadecimal representation of 255 is ff\"\n# 5. %o (Integers in Octal Format Specifier)\nnumber = 255\nformatted_string = \"The octal representation of %d is %o\" % (number, number)\nprint(formatted_string)  # Output: \"The octal representation of 255 is 377\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "number = 255\nformatted_string = \"The hexadecimal representation of %d is %x\" % (number, number)\nprint(formatted_string)  # Output: \"The hexadecimal representation of 255 is ff\"\n# 5. %o (Integers in Octal Format Specifier)\nnumber = 255\nformatted_string = \"The octal representation of %d is %o\" % (number, number)\nprint(formatted_string)  # Output: \"The octal representation of 255 is 377\"\n#6.  %e (Scientific Format Specifier) e.g 2.5e+02\nlarge_number = 25000\nformatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"The hexadecimal representation of %d is %x\" % (number, number)\nprint(formatted_string)  # Output: \"The hexadecimal representation of 255 is ff\"\n# 5. %o (Integers in Octal Format Specifier)\nnumber = 255\nformatted_string = \"The octal representation of %d is %o\" % (number, number)\nprint(formatted_string)  # Output: \"The octal representation of 255 is 377\"\n#6.  %e (Scientific Format Specifier) e.g 2.5e+02\nlarge_number = 25000\nformatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)\nprint(formatted_string)  # Output: \"The scientific notation of 25000 is 2.500000e+04\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "number = 255\nformatted_string = \"The octal representation of %d is %o\" % (number, number)\nprint(formatted_string)  # Output: \"The octal representation of 255 is 377\"\n#6.  %e (Scientific Format Specifier) e.g 2.5e+02\nlarge_number = 25000\nformatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)\nprint(formatted_string)  # Output: \"The scientific notation of 25000 is 2.500000e+04\"\n# 7 .%c (Character Format Specifier)\nchar_code = 65\nformatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"The octal representation of %d is %o\" % (number, number)\nprint(formatted_string)  # Output: \"The octal representation of 255 is 377\"\n#6.  %e (Scientific Format Specifier) e.g 2.5e+02\nlarge_number = 25000\nformatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)\nprint(formatted_string)  # Output: \"The scientific notation of 25000 is 2.500000e+04\"\n# 7 .%c (Character Format Specifier)\nchar_code = 65\nformatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)\nprint(formatted_string)  # Output: \"The character for ASCII code 65 is A\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "large_number",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "large_number = 25000\nformatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)\nprint(formatted_string)  # Output: \"The scientific notation of 25000 is 2.500000e+04\"\n# 7 .%c (Character Format Specifier)\nchar_code = 65\nformatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)\nprint(formatted_string)  # Output: \"The character for ASCII code 65 is A\"\n# 8. %r (Raw Format Specifier)\ntext = \"Hello\\nWorld\"\nformatted_string = \"Raw representation: %r\" % text",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"The scientific notation of %d is %e\" % (large_number, large_number)\nprint(formatted_string)  # Output: \"The scientific notation of 25000 is 2.500000e+04\"\n# 7 .%c (Character Format Specifier)\nchar_code = 65\nformatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)\nprint(formatted_string)  # Output: \"The character for ASCII code 65 is A\"\n# 8. %r (Raw Format Specifier)\ntext = \"Hello\\nWorld\"\nformatted_string = \"Raw representation: %r\" % text\nprint(formatted_string)  # Output: \"Raw representation: 'Hello\\\\nWorld'\"",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "char_code",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "char_code = 65\nformatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)\nprint(formatted_string)  # Output: \"The character for ASCII code 65 is A\"\n# 8. %r (Raw Format Specifier)\ntext = \"Hello\\nWorld\"\nformatted_string = \"Raw representation: %r\" % text\nprint(formatted_string)  # Output: \"Raw representation: 'Hello\\\\nWorld'\"\n# 9. Escape Sequence\n\"\"\"\\   -> Escape character\n\\n  -> Escape sequence",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"The character for ASCII code %d is %c\" % (char_code, char_code)\nprint(formatted_string)  # Output: \"The character for ASCII code 65 is A\"\n# 8. %r (Raw Format Specifier)\ntext = \"Hello\\nWorld\"\nformatted_string = \"Raw representation: %r\" % text\nprint(formatted_string)  # Output: \"Raw representation: 'Hello\\\\nWorld'\"\n# 9. Escape Sequence\n\"\"\"\\   -> Escape character\n\\n  -> Escape sequence\n\\n  -> inserts new line",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "text = \"Hello\\nWorld\"\nformatted_string = \"Raw representation: %r\" % text\nprint(formatted_string)  # Output: \"Raw representation: 'Hello\\\\nWorld'\"\n# 9. Escape Sequence\n\"\"\"\\   -> Escape character\n\\n  -> Escape sequence\n\\n  -> inserts new line\n\\\\  -> inserts backslach\n\\'  -> inserts single quote\n\\\"  -> inserts double quote",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "formatted_string = \"Raw representation: %r\" % text\nprint(formatted_string)  # Output: \"Raw representation: 'Hello\\\\nWorld'\"\n# 9. Escape Sequence\n\"\"\"\\   -> Escape character\n\\n  -> Escape sequence\n\\n  -> inserts new line\n\\\\  -> inserts backslach\n\\'  -> inserts single quote\n\\\"  -> inserts double quote\n\\t  -> inserts tab",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "Assignment:",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "Assignment: = Addition assignment: += Subtraction assignment: -= \nMultiplication assignment: *= Division assignment: /= \nModulus assignment: %= Floor division assignment: //= \nExponentiation assignment: **=\"\"\"\nx: int = 5\nx += 3  # Equivalent to x = x + 3\ny: float = 10\ny /= 2  # Equivalent to y = y / 2\n# 11. Comments.\n\"\"\"In Python, comments are lines of text in your code that are not executed as part of the program. ",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "w = True\nx = 5\ny = 3.0\nz = \"Hello\"\nprint(type(w)) \nprint(type(x))  \nprint(type(y))  \nprint(type(z))  \nprint(dir(w))  \nprint(dir(x)) ",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "x = 5\ny = 3.0\nz = \"Hello\"\nprint(type(w)) \nprint(type(x))  \nprint(type(y))  \nprint(type(z))  \nprint(dir(w))  \nprint(dir(x)) \nprint(dir(y))",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "y = 3.0\nz = \"Hello\"\nprint(type(w)) \nprint(type(x))  \nprint(type(y))  \nprint(type(z))  \nprint(dir(w))  \nprint(dir(x)) \nprint(dir(y))\nprint(dir(z))",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "Basic_string_methods",
+        "description": "Basic_string_methods",
+        "peekOfCode": "z = \"Hello\"\nprint(type(w)) \nprint(type(x))  \nprint(type(y))  \nprint(type(z))  \nprint(dir(w))  \nprint(dir(x)) \nprint(dir(y))\nprint(dir(z))\nprint(id(w))  ",
+        "detail": "Basic_string_methods",
+        "documentation": {}
+    }
+]

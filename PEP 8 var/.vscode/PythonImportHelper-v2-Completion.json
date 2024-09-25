@@ -1,0 +1,223 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Popen",
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "isExtraImport": true,
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "PIPE",
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "isExtraImport": true,
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "sibling",
+        "importPath": "mypkg",
+        "description": "mypkg",
+        "isExtraImport": true,
+        "detail": "mypkg",
+        "documentation": {}
+    },
+    {
+        "label": "example_function",
+        "importPath": "mypkg.sibling",
+        "description": "mypkg.sibling",
+        "isExtraImport": true,
+        "detail": "mypkg.sibling",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    pass\nclass EmployeeRecord:\n    pass\n# 6.Instance and Class Varibles:\nclass ExampleClass:\n    class_varibles=0\n    def __init__(self,value):\n        self.instance_varible=value\n# 7. Function and Method Names:",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "EmployeeRecord",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class EmployeeRecord:\n    pass\n# 6.Instance and Class Varibles:\nclass ExampleClass:\n    class_varibles=0\n    def __init__(self,value):\n        self.instance_varible=value\n# 7. Function and Method Names:\ndef my_function():\n    pass ",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "ExampleClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class ExampleClass:\n    class_varibles=0\n    def __init__(self,value):\n        self.instance_varible=value\n# 7. Function and Method Names:\ndef my_function():\n    pass \nclass MyClass:\n    def my_method(self):\n        pass ",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    def my_method(self):\n        pass \n# 8.Private Varibles\n_private_varible=45\nclass MyClass:\n    def __init__(self):\n      self._private_instance_varible=\"private\"\n# 9.Avoid Trailing Underscores:\nclass_=\"AI\"",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    def __init__(self):\n      self._private_instance_varible=\"private\"\n# 9.Avoid Trailing Underscores:\nclass_=\"AI\"\n# 10. Double Leading Underscores:\nclass MyClass:\n    def __init__(self):\n        self.__mangled_name=\"mangled\"\n# 11. Variables with Special Meanings:",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    def __init__(self):\n        self.__mangled_name=\"mangled\"\n# 11. Variables with Special Meanings:\n__all__=[\"module1\", \"module2\"]\n__version__=\"1.0\"\n__author__=\"Umair\"\n# B _ Indentation and Line Length\n# 1.Indentation\ndef example_function():",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    def method_one(self):\n        pass\n    def method_two(self):\n        pass\ndef function_one():\n    pass\ndef function_two():\n    pass\n# C_Imports",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "class MyClass:\n    def method(self):\n        pass\n# I- line Breaks and statement\n# 14.Line Breaks\n\"\"\"total = item_one +item_two+item_three+ \\\n    item_four+item_five\"\"\"\n# 15. Compound statement\n#Correct \n\"\"\"if foo ==\"bar\":",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def my_function():\n    pass \nclass MyClass:\n    def my_method(self):\n        pass \n# 8.Private Varibles\n_private_varible=45\nclass MyClass:\n    def __init__(self):\n      self._private_instance_varible=\"private\"",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "example_function",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def example_function():\n    a=3\n    b=10\n    return a+b\nif True:\n    print(\"Hello, World!\")\n# 2. Maximum Line Length (79):\ndef example_function_with_long_name(argument_one,argument_two,argument_three):\n    return argument_one+argument_two+argument_three\nlong_varible_name=\"This is a very long string that goes beyond the limit of 79 characters\"",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "example_function_with_long_name",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def example_function_with_long_name(argument_one,argument_two,argument_three):\n    return argument_one+argument_two+argument_three\nlong_varible_name=\"This is a very long string that goes beyond the limit of 79 characters\"\n# 3. Blank Lines:\nclass MyClass:\n    def method_one(self):\n        pass\n    def method_two(self):\n        pass\ndef function_one():",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "function_one",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def function_one():\n    pass\ndef function_two():\n    pass\n# C_Imports\n# 4.Imports\nimport os \nimport sys\nfrom subprocess import Popen, PIPE\n# from mymodule import my_function",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "function_two",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def function_two():\n    pass\n# C_Imports\n# 4.Imports\nimport os \nimport sys\nfrom subprocess import Popen, PIPE\n# from mymodule import my_function\n# D _String Quotes\n# 5. string",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def my_function():\n    pass\nvaribles_names=10 \n# H_Programming Recommendation\n# 9. Prog\ndef add (x,y):\n    return x+y\n# Instead of :\nadd= lambda x,y:x+y\n# 10. Module Level Dunder Names:",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "ad",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def add (x,y):\n    return x+y\n# Instead of :\nadd= lambda x,y:x+y\n# 10. Module Level Dunder Names:\n\"\"\"Module docstring\"\"\"\n__all__=[\"foo\", \"bar\"]\n__version__=\"1.0\"\n__author__=\"Umair\"\nimport os",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "def main():\n    print(\"Hello , World!\")\nif __name__==\"__main__\":\n    main()\n# 12. Trailing commas\nmy_list=[\n    1,\n    2,\n    3,\n]",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "long_varible",
+        "kind": 5,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "long_varible = 3\n## Incorrect\nx    =1\ny     =4\nlong_varible =4 \n# F _Comments\n# 7.comments\n#  This is a correct comment.\na=5 #This is a correct comment.\n#  this incorrect comments ",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "my_list = [1,2,3]\n# 13. Method Definitions:\nclass MyClass:\n    def method(self):\n        pass\n# I- line Breaks and statement\n# 14.Line Breaks\n\"\"\"total = item_one +item_two+item_three+ \\\n    item_four+item_five\"\"\"\n# 15. Compound statement",
+        "detail": "pep_8_var",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"total",
+        "kind": 5,
+        "importPath": "pep_8_var",
+        "description": "pep_8_var",
+        "peekOfCode": "\"\"\"total = item_one +item_two+item_three+ \\\n    item_four+item_five\"\"\"\n# 15. Compound statement\n#Correct \n\"\"\"if foo ==\"bar\":\n    do_something()\n# incorrect:\nif foo ==\"bar\": do_something()\"\"\"\n# J-Accessing Names:\n\"\"\"import mypkg.sibling",
+        "detail": "pep_8_var",
+        "documentation": {}
+    }
+]
